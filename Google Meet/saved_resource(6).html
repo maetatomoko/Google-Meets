@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<!-- saved from url=(0012)about:srcdoc -->
+<html lang="ja"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;800&amp;display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Noto Sans JP', sans-serif; }
+        .slide-container {
+            width: 1280px;
+            min-height: 720px;
+            background-color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+        }
+        .header {
+            background-color: #1A202C;
+            padding-top: 30px;
+            height: 100px;
+            padding-left: 60px;
+        }
+        .slide-title {
+            font-size: 40px;
+            font-weight: 800;
+            color: #FFFFFF;
+        }
+        .content-area {
+            flex: 1;
+            padding-top: 40px;
+            padding-left: 80px;
+            padding-right: 80px;
+            display: flex;
+            flex-direction: column;
+        }
+        .headline {
+            font-size: 36px;
+            font-weight: 800;
+            color: #D97706;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        .dialog-container {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .dialog-box {
+            flex: 1;
+            border: 4px solid #2D3748;
+            border-radius: 16px;
+            padding-top: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            background-color: #F7FAFC;
+            height: 280px; /* reduced from 320px to fit under 720px total */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .dialog-icon {
+            font-size: 50px;
+            color: #4A5568;
+            margin-bottom: 20px;
+        }
+        .dialog-text {
+            font-size: 24px;
+            font-weight: 800;
+            color: #1A202C;
+            text-align: center;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        .allow-button {
+            background-color: #D97706;
+            color: #FFFFFF;
+            font-size: 32px;
+            font-weight: 800;
+            padding-top: 15px;
+            padding-left: 60px;
+            padding-right: 60px;
+            height: 70px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .hint-box {
+            background-color: rgba(217, 119, 6, 0.1);
+            border-left: 8px solid #D97706;
+            padding-top: 25px;
+            padding-left: 30px;
+            padding-right: 30px;
+            height: 120px;
+            margin-top: auto;
+            margin-bottom: 40px;
+        }
+        .hint-text {
+            font-size: 26px;
+            font-weight: 800;
+            color: #2D3748;
+            line-height: 1.6;
+        }
+    </style>
+<!-- Manus style start -->
+<style>
+  [size="1"] { font-size: 12px !important; }
+  [size="2"] { font-size: 14px !important; }
+  [size="3"] { font-size: 16px !important; }
+  [size="4"] { font-size: 24px !important; }
+  [size="5"] { font-size: 32px !important; }
+  [size="6"] { font-size: 48px !important; }
+  [size="7"] { font-size: 72px !important; }
+  </style>
+<!-- Manus style end -->
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2 class="slide-title">ステップ③ マイクとカメラを「許可」する</h2>
+        </div>
+        
+        <div class="content-area">
+            <div class="headline">
+                最初に一度だけ、スマホから「許可」を求められます
+            </div>
+            
+            <div class="dialog-container">
+                <!-- Microphone Dialog -->
+                <div class="dialog-box">
+                    <i class="fas fa-microphone dialog-icon"></i>
+                    <div class="dialog-text">
+                        「マイクへのアクセスを<br>許可しますか？」
+                    </div>
+                    <div class="allow-button">許可</div>
+                </div>
+                
+                <!-- Camera Dialog -->
+                <div class="dialog-box">
+                    <i class="fas fa-camera dialog-icon"></i>
+                    <div class="dialog-text">
+                        「カメラへのアクセスを<br>許可しますか？」
+                    </div>
+                    <div class="allow-button">許可</div>
+                </div>
+            </div>
+            
+            <div class="hint-box">
+                <div class="hint-text">
+                    <i class="fas fa-lightbulb" style="color: #D97706; margin-right: 15px;"></i>
+                    これを「許可」しないと、相手に声が届かなかったり、<br>
+                    自分の顔が映らなくなります。必ず「許可」をタップしましょう。
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Manus start -->
+
+<style id="manus-iframe-hack-style">
+  body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    min-height: 720px;
+    min-width: 1280px;
+    max-height: none;
+    max-width: none;
+    height: auto;
+    width: auto;
+    flex: none;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+    align-self: auto;
+    justify-self: auto;
+    grid-area: auto;
+    position: static;
+    transform: none;
+    box-sizing: border-box;
+  }
+</style>
+<script id="manus-iframe-communication-script" nonce="">(()=>{var h=window.parent;function s(e){try{h.postMessage(e,"*")}catch(n){}}function c(){document.body&&s({type:"slide-resize",slideId:"slide_6",width:Math.max(document.body.scrollWidth||0,document.body.offsetWidth||0,document.body.clientWidth||0,1280),height:Math.max(document.body.scrollHeight||0,document.body.offsetHeight||0,document.body.clientHeight||0,720)})}function f(){if(!window.Chart||!window.Chart.getChart)return;let e=document.querySelectorAll("canvas");for(let n=0;n<e.length;n++){let t=e[n];if(t&&t.id){let o=window.Chart.getChart(t.id);o&&o.destroy()}}}function C(){if(!document.body)return;let e=Array.prototype.slice.call(document.body.querySelectorAll("script"));for(let n=0;n<e.length;n++){let t=e[n];if(!t)continue;let o=!!t.getAttribute("src"),l=!!(t.textContent&&t.textContent.trim());if(!o&&l&&t.textContent&&/new\s+Chart\s*\(/.test(t.textContent)){let r=document.createElement("script");for(let i=0;i<t.attributes.length;i++){let d=t.attributes[i];d&&r.setAttribute(d.name,d.value)}let u="(function() { try {"+t.textContent+"} catch(e) {} })();";r.textContent=u,t.parentNode&&t.parentNode.replaceChild(r,t)}}}function w(){if(!window.Chart||!window.Chart.getChart)return;let e=document.querySelectorAll("canvas"),n=!1;for(let t=0;t<e.length;t++){let o=e[t];if(o&&o.id&&!window.Chart.getChart(o.id)){n=!0;break}}n&&(f(),C())}function a(){c(),typeof ResizeObserver!="undefined"&&new ResizeObserver(c).observe(document.documentElement),document.addEventListener("wheel",e=>s({type:"slide-wheel",deltaY:e.deltaY,deltaX:e.deltaX}),{passive:!0}),window.addEventListener("load",function(){w()})}document.readyState==="loading"?document.addEventListener("DOMContentLoaded",a):a();})();
+</script>
+<!-- Manus end -->
+
+
+</body></html>
